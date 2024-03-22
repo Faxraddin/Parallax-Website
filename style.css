@@ -114,6 +114,7 @@ main{
 
 .parallax{
     pointer-events: none;
+    /*transition: 1s cubic-bezier(.2, .49, .32, .99);*/
 }
 
 .bg-img {
