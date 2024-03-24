@@ -119,18 +119,18 @@ main{
 
 .bg-img {
     position: absolute;
-    width: 2800px;
-    top: calc(50% - 390px); 
-    left: calc(50% + 10px);
+    width: 194.44%;
+    top: 1.86%; 
+    left: 50.69%;
     transform:translate(-50%, -50%);
     z-index: 1;
 }
 
 .fog-7 {
     position: absolute;
-    width: 1900px;
-    top: calc(50% - 100px); 
-    left: calc(50% + 300px);
+    width: 132%;
+    top: 37.7%; 
+    left: 70.8%;
     z-index: 2;
     transform:translate(-50%, -50%);
 }
@@ -277,6 +277,15 @@ main{
     transform:translate(-50%, -50%);
 }
 
+.fog-1 {
+    position: absolute;
+    z-index: 21;
+    width: 111.8%;
+    top: 59.26%; 
+    left: 50.69%;
+    transform:translate(-50%, -50%);
+}
+
 .mountain-2 {
     position: absolute;
     z-index: 17;
@@ -327,4 +336,63 @@ main{
 .parallax{
     pointer-events: none;
     transform:translate(-50%, -50%);
+}
+
+@media (max-width: 1100px){
+    .text h1{
+        font-size: 5.8rem;
+    }
+
+    .text h2{
+        font-size: 4.7rem;
+    }
+}
+
+@media (max-width: 725px){
+    .text h1{
+        line-height: 1.1;
+        font-size: 5rem;
+    }
+
+    .text h2{
+        font-size: 4.1rem;
+        line-height: 1.1;
+    }
+
+    header nav{
+        padding: 0 1rem;
+    }
+
+    .logo{
+        width: 75px;
+    }
+
+    header ul a{
+        font-size:0.73rem;
+        padding: 0 0.9rem;
+    }
+
+    .search a{
+        font-size:0.85rem;
+        padding: 0 1.8rem;
+    }
+
+    .hamburger {
+        padding-left: 0.9rem;
+    }
+
+    .hamburger a{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 520px){
+    .text h1{
+        font-size: 3.3rem;
+    }
+
+    .text h2{
+        font-size: 2.6rem;
+    }
 }
